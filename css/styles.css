@@ -1,7 +1,28 @@
 body, html{
+	font-family: Verdana, sans-serif;
+	line-height: 18px;
 	margin:0;
 	padding:0;
 	height: 100%;
+
+	background-image: linear-gradient(bottom, rgb(240,240,240) 0%, rgb(255,255,255) 92%);
+	background-image: -o-linear-gradient(bottom, rgb(240,240,240) 0%, rgb(255,255,255) 92%);
+	background-image: -moz-linear-gradient(bottom, rgb(240,240,240) 0%, rgb(255,255,255) 92%);
+	background-image: -webkit-linear-gradient(bottom, rgb(240,240,240) 0%, rgb(255,255,255) 92%);
+	background-image: -ms-linear-gradient(bottom, rgb(240,240,240) 0%, rgb(255,255,255) 92%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(240,240,240)),
+		color-stop(0.92, rgb(255,255,255))
+	);
+
+}
+h2 {
+	font-size: 15px;
+	color: #888;
 }
 
 #sidebar {
@@ -41,4 +62,6 @@ body, html{
 	position:absolute;
 	left:250px;
 	padding:20px;
+
+
 }

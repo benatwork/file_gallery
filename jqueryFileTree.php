@@ -26,7 +26,7 @@
 
 
 $GLOBALS["excludedFileNames"] = array(".DS_Store", "index.html", ".", "..");
-$GLOBALS["excludedExtensions"] = array(".html", ".js", ".fla", ".mov",".jpg", ".gif", ".mov");
+$GLOBALS["excludedExtensions"] = array(".html", ".js", ".fla", ".mov",".jpg", ".mov");
 
 $_POST['dir'] = urldecode($_POST['dir']);
 
