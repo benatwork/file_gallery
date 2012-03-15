@@ -1,0 +1,44 @@
+body, html{
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+#sidebar {
+	float: left;
+	width: 250px;
+	height: 100%;
+
+	background: #FFF;
+	overflow-x: auto;
+	border-right: 2px solid #999;		
+	
+	background-image: linear-gradient(bottom, rgb(189,189,189) 2%, rgb(219,219,219) 56%);
+	background-image: -o-linear-gradient(bottom, rgb(189,189,189) 2%, rgb(219,219,219) 56%);
+	background-image: -moz-linear-gradient(bottom, rgb(189,189,189) 2%, rgb(219,219,219) 56%);
+	background-image: -webkit-linear-gradient(bottom, rgb(189,189,189) 2%, rgb(219,219,219) 56%);
+	background-image: -ms-linear-gradient(bottom, rgb(189,189,189) 2%, rgb(219,219,219) 56%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.02, rgb(189,189,189)),
+		color-stop(0.56, rgb(219,219,219))
+	);
+}
+
+#fileTree {
+	padding: 20px;
+}
+
+#mainWrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#content{
+	position:absolute;
+	left:250px;
+	padding:20px;
+}
